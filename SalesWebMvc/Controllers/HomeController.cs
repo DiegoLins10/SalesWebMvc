@@ -28,6 +28,18 @@ namespace SalesWebMvc.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Salles web MVC from C#";
+            ViewData["Develop"] = "Developer by Diego Lins";
+            return View();
+        }
+
+        public IActionResult Teste()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
