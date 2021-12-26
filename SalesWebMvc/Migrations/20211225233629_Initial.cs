@@ -5,6 +5,12 @@ namespace SalesWebMvc.Migrations
 {
     public partial class Initial : Migration
     {
+       /*
+        * Adicionar migration: Add-Migration Nome
+        * Remover migration: Remove-Migration
+        * Enviar alterações para o bd: Update-DataBase
+        */
+
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
