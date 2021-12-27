@@ -18,6 +18,7 @@ namespace SalesWebMvc.Data
 
         /*
          * Metodo para popular banco de dados;
+         * em desenvolvimento
          */
         public void Seed()
         {
