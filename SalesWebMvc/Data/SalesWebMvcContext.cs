@@ -14,6 +14,14 @@ namespace SalesWebMvc.Data
         {
         }
 
-        public DbSet<SalesWebMvc.Models.Department> Department { get; set; }
+        /*
+        * Adicionar migration: Add-Migration Nome
+        * Remover migration: Remove-Migration
+        * Enviar alterações para o bd: Update-DataBase
+        */
+
+        public DbSet<Department> Department { get; set; }
+        public DbSet<Seller> Seller { get; set; }
+        public DbSet<SalesRecord> SalesRecord { get; set; }
     }
 }
